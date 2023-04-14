@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Outfit&family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+body{
+ /*max-width: 1440px;*/
+ padding: 0;
+ padding-left: 50px;
+ padding-right: 50px;
+ display: flex;
+ flex-direction: column;
+margin: 0;
+font-family: 'Lobster', cursive;
+font-family: 'Outfit', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+}
+header{
+    color: white;
+    background: url(images/desktop/image-hero.jpg)no-repeat;
+    background-size:cover;
+    height: 600px;
+}
+
+#nave-bar{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:space-around;
+}
+
+header h1{
+    font-size: xx-large;
+    margin-right: 200px;
+}
+
+header li{
+    margin-left: 400px;
+    list-style: none;
+}
+header li a{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+header li a:hover{
+   border-bottom: 2px solid white;
+}
+
+#Immersive-text{
+    font-size: 80px;
+    border: 2px solid white;
+    width: 550px;
+    padding-left: 25px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+#Leader-Area{
+align-self: center;
+ width: 100%;
+ height: 700px;
+ position: relative;
+}
+
+ #Leader-Area img{
+   width: 700px;
+   height: 450px;
+   display: block;
+   position: relative;
+   top: 100px;
+   left: 300px;
+
+ }
+
+ #Block-Interactive{
+    background-color: white;
+    text-align: center;
+    width: 600px;
+    height: 350px;
+    display: block;
+    position: relative;
+
+    top: -200px;
+    left: 900px;
+ }
+
+ #Block-Interactive h1{
+font-size: 50px;
+
+ }
+
+ #Creation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ #Creation h1{
+   font-size: 50px;
+   font-weight: 100;
+ }
+
+ #Creation div{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    cursor: pointer;
+ }
+ #IMG-Page{
+    align-self: center;
+
+    width: 80%;
+    height: 1200px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+
+ }
+ #IMG-Page img
+ {
+    position: relative;
+    width: 320px;
+ }
+
+ #IMG-Page a
+ {
+   text-decoration: none;
+   color: white;
+   margin-left: 20px;
+   padding: 0;
+   height: 500px;
+
+ }
+
+ #IMG-Page a:hover
+ {
+
+    color: black;
+
+ }
+
+ #IMG-Page img:hover
+ {
+    filter: opacity(50%);
+    -webkit-filter: opacity(50%);
+    color: black;
+
+ }
+ #IMG-Page h2{
+    position: relative;
+    font-size: 40px;
+    top: -150px;
+    text-align: center;
+ }
+
+ footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    height: 100px;
+    margin-bottom: 0;
+ }
+
+ footer .left{
+   
+    margin-left: 80px;
+    width: 500px;
+ }
+ footer .left h1{
+   font-size: large;
+    margin-left: 50px;
+   
+ }
+ 
+ footer .left li{
+   padding-top: 10px;
+    margin-left: 40px;
+    list-style: none;
+ }
+ footer .left li a{
+   
+    margin-left: 10px;
+   text-decoration: none;
+   color: white;
+ }
+
+ footer .left li a:hover{
+   
+   border-bottom: 2px solid white;
+ }
+
+ footer .right{
+   
+    margin-right: 80px;
+    width: 500px;
+ }
+ footer .right a{
+   
+    margin-right: 25px;
+ }
+  footer .right li{
+    display: flex;
+   justify-content: flex-end;
+    list-style: none;
+    margin-top: 10px;
+ }
+
+ footer .right h3{
+    display: flex;
+   justify-content: flex-end;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-right: 25px;
+ }
